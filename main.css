@@ -1,0 +1,52 @@
+body {
+  background-color: #00897B;
+  color: #F7F9F9;
+}
+.main {
+  text-align: center;
+  margin: 15% 10% 15% 10%;
+}
+button {
+  radius: 50px;
+  border: none;
+  background-color: #00897B;
+}
+i {
+  color: #FFC300;
+  background-color: #00897B;
+}
+form {
+  display: inline-block;
+  width: 90%;
+  padding: 5px;
+}
+input {
+  width: 90%;
+  border-radius: 50px;
+  border: 5px solid #FFC300;
+  padding: 5px;
+}
+.entry {
+  text-align: left;
+  padding: 10px;
+  background-color: #F7F9F9;
+  color: black;
+  border-left: 5px solid #F7F9F9;
+  width: 100%;
+  height: 100px;
+  overflow: scroll;
+  margin: 7px;
+}
+.entry:hover {
+  border-left: 5px solid #FFC300;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+p {
+  font-size: 1.0rem;
+}
+/*Colors: #00897B, #F7F9F9, #A3E4D7, #DAF7A6, #FFC300, #FF5733 */

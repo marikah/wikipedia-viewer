@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<!-- This is a FreeCodeCamp Front End Development Project: Build a wikipedia viewer -->
+<!-- https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer -->
+<!-- Work in progress -->
+
+<html>
+
+  <head>
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <script src="script.js"></script>
+    <div class="main">
+      <h1>Enter a keyword to search Wikipedia</h1>
+      <form>
+        <input id="keyword" type="text" name="keyword" value="rainbow" placeholder="">
+      </form>
+      <button onclick="searchWikipedia()"><i class="fa fa-search fa-lg"></i></button>
+      <div id="results">
+        <!-- some scripting to add a list of search results -->
+      </div>
+    </div>
+  </body>
+
+</html>
